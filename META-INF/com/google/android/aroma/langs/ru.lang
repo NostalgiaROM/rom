@@ -1,0 +1,61 @@
+﻿#
+#--- COMMON SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_next=Далее
+text_back=Назад
+text_yes=Да
+text_no=Нет
+text_about=О программе
+text_calibrating=Калибровка
+text_quit=Покинуть установку
+text_quit_msg=Вы действительно хотите покинуть установку?
+
+#
+#-- CUSTOM STRING RESOURCE
+#
+common.for=для
+
+#-- End of string without any backslash for multiline text
+
+welcome.title=Добро пожаловать
+welcome.text1=Вы собираетесь установить
+welcome.text2=MaximusHD или MHD одна из наиболее популярных прошивок на xda-developers
+welcome.version=Версия
+welcome.updated=Дата обновления
+welcome.next=Нажмите Далее для продолжения установки...
+
+terms.title=Условия использования
+terms.desc=Пожалуйста внимательно прочитайте условия использования MaximusHD.
+terms.check=Я согласен с правилами использования...
+terms.confirm=Пожалуйста ознакомьтесь с соглашением...
+
+changelog.title=История изменений
+changelog.desc=История изменений MaximusHD
+
+flash.title=Опции установки
+flash.desc=Выберите вариант установки:
+
+model.title=Какова модель вашего устройства?
+model.desc=Выберите вашу модель:
+
+mods.title=Дополнительные моды
+mods.desc=Выберите моды которые вы хотите установить:
+
+launcher.title=Сторонние оболочки
+launcher.desc=Выберите нужную оболочку:
+
+remove.title=Удаление приложений
+remove.desc=Выберите приложения которые вы хотите удалить:
+
+keyboards.title=Установка клавиатур
+keyboards.desc=Выберите клавиатуры которые вы хотите установить:
+
+install.title=Мы готовы к установке
+install.multiline=Мы собрали всю необходимую информацию для установки\
+Нажмите Далее чтобы начать установку..
+
+installing.title=Установка
+installing.desc=Установка
+
+installcompleted.title=Установка завершена

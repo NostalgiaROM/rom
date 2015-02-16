@@ -1,0 +1,61 @@
+﻿#
+#--- COMMON SYSTEM STRING RESOURCE
+#
+text_ok=Tamam
+text_next=İleri
+text_back=Geri
+text_yes=Evet
+text_no=Hayır
+text_about=Hakkında
+text_calibrating=Ayarlama Araçları
+text_quit=Yüklemeden çıkış
+text_quit_msg=Yükleyiciden çıkıştan emin misiniz?
+
+#
+#-- CUSTOM STRING RESOURCE
+#
+common.for=için
+
+#-- End of string without any backslash for multiline text
+
+welcome.title=Hoşgeldiniz
+welcome.text1=Yüklemek üzeresiniz
+welcome.text2=MaximusHD ya da MHD XDA Geliştiricileri tarafından yayınlanan en iyi romlardandır
+welcome.version=Versiyon
+welcome.updated=Güncellendi
+welcome.next=Yüklemeye devam etmek için ileri tuşuna basınız...
+
+terms.title=Şartlar ve Koşullar
+terms.desc=Lütfen aşağıdaki MaximusHD Şartlar ve Koşullarını dikkatli bir şekilde okuyunuz.
+terms.check=Bu Şartlar ve Koşullara uyuyorum...
+terms.confirm=Lütfen anlaşmayı kontrol ediniz...
+
+changelog.title=Değişiklikler
+changelog.desc=MaximusHD Değişiklikleri:
+
+flash.title=Ön Flaşlama Seçenekleri
+flash.desc=Lütfen seçiniz:
+
+model.title=Hangi cihaz modeline sahipsiniz?
+model.desc=Lütfen modeli seçiniz:
+
+mods.title=İlave Modlar
+mods.desc=Lütfen yüklemek istediğiniz modları seçiniz:
+
+launcher.title=Başlatıcı Seçenekleri
+launcher.desc=Lütfen aşağıda tercih ettiğiniz başlatıcıyı seçiniz:
+
+remove.title=Uygulamaları Kaldırma
+remove.desc=Lütfen kaldırmak istediğiniz uygulamayı seçiniz:
+
+keyboards.title=Klavyeleri yükleme
+keyboards.desc=Lütfen yüklemek istediğiniz klavyeleri seçiniz:
+
+install.title=Yüklemeye hazır
+install.multiline=Tüm bilgiler kurulum için toplanmıştır\
+Kuruluma başlamak için ileriyi tıklayınız..
+
+installing.title=Yükleniyor
+installing.desc=Yükleniyor
+
+installcompleted.title=Kurulum tamamlandı

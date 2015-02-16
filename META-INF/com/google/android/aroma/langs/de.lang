@@ -1,0 +1,75 @@
+﻿#
+#--- COMMON SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_next=Weiter
+text_back=Zurück
+text_yes=Ja
+text_no=Nein
+text_about=Über
+text_calibrating=Kalibrier Werkzeuge
+text_quit=Installation beenden
+text_quit_msg=Sind Sie sicher, dass Sie das Installationsprogramm beenden möchten?
+
+
+#
+#-- CUSTOM STRING RESOURCE
+#
+common.for=für
+
+
+#-- End of string without any backslash for multiline text
+
+
+welcome.title=Willkommen
+welcome.text1=Du bist dabei MHD(MaximusHD) zu installieren
+welcome.text2=MaximusHD oder MHD ist Eins der beliebtesten ROMs aus XDA-Developers
+welcome.version=Version
+welcome.updated=Aktualisierung
+welcome.next=Drücken Sie auf Weiter, um die Installation fortzusetzen...
+
+
+terms.title=allgemeine Bedingungen
+terms.desc=Bitte lesen Sie sorgfältig die nachstehenden MaximusHD Bedingungen durch.
+terms.check=Ich stimme den allgemeinen Bedingungen zu...
+terms.confirm=Bitte überprüfen Sie die Vereinbarung...
+
+
+changelog.title=Changelog
+changelog.desc=MaximusHD Changelog:
+
+
+flash.title=Pre-Flash Optionen
+flash.desc=Bitte wählen:
+
+
+model.title=Welches Gerät haben Sie?
+model.desc=Bitte wählen Sie Ihr Modell aus:
+
+
+mods.title=Zusätzliche Mods
+mods.desc=Bitte wählen Sie aus, welche Mods Sie installieren möchten:
+
+
+launcher.title=Launcher Optionen
+launcher.desc=Bitte wählen Sie im Folgenden Ihren bevorzugten Launcher aus:
+
+
+remove.title=Apps entfernen
+remove.desc=Bitte wählen Sie aus, welche Anwendungen Sie entfernen möchten:
+
+
+keyboards.title=Tastatur installieren
+keyboards.desc=Bitte wählen Sie die Tastatur aus, welche Sie installieren möchten:
+
+
+install.title= Bereit zur Installation
+install.multiline=Alle Informationen sind jetzt für eine Installation gesammelt\
+Tippen Sie auf Weiter, um die Installation zu starten..
+
+
+installing.title=Installieren
+installing.desc=Installieren
+
+
+installcompleted.title=Installation abgeschlossen

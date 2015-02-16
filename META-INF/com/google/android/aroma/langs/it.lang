@@ -1,0 +1,61 @@
+﻿#
+#--- COMMON SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_next=Avanti
+text_back=Indietro
+text_yes=Sì
+text_no=No
+text_about=About
+text_calibrating=Calibrazione
+text_quit=Termina Installazione
+text_quit_msg=Vuoi davvero uscire dall'installer?
+
+#
+#-- CUSTOM STRING RESOURCE
+#
+common.for=per
+
+#-- End of string without any backslash for multiline text
+
+welcome.title=Benvenuto
+welcome.text1=Stai Per Installare
+welcome.text2=MaximusHD (o MHD) è Una Delle ROM Più Famose su XDA-Developers
+welcome.version=Versione
+welcome.updated=Aggiornato
+welcome.next=Premi Avanti per Proseguire con l'Installazione...
+
+terms.title=Condizioni Contrattuali
+terms.desc=Leggi Qua Sotto Con Attenzione le Condizioni Contrattuali di MaximusHD.
+terms.check=Concordo Con I Termini...
+terms.confirm=Controlla il Contratto...
+
+changelog.title=Changelog
+changelog.desc=MaximusHD Changelog:
+
+flash.title=Opzioni Pre-Flash
+flash.desc=Scegli:
+
+model.title=Quale Versione del Dispositivo Possiedi?
+model.desc=Scegli il Tuo Modello:
+
+mods.title=Ulteriori Mod
+mods.desc=Scegli Quali Mod Installare:
+
+launcher.title=Opzioni Launcher
+launcher.desc=Scegli il Tuo Launcher:
+
+remove.title=Rimuovi App
+remove.desc=Scegli Quali App Vuoi Rimuovere Tra Queste:
+
+keyboards.title=Installa Tastiere
+keyboards.desc=Scegli Quali Tastiere Vuoi Installare:
+
+install.title=Pronto Ad Installare
+install.multiline=Raccolta Informazioni Per l'Installazione Terminata\
+Premi Avanti per avviare l'installazione...
+
+installing.title=Installazione
+installing.desc=Installazione in corso
+
+installcompleted.title=Installazione Completata

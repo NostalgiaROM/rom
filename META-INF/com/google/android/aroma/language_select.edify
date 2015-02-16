@@ -1,0 +1,99 @@
+﻿###################################################################################################################
+#
+# SHOW LANGUAGE SELECTION
+#
+selectbox(
+    "Select Language",
+    "Please select installer language that you want to use in this installation:",
+    "@install",
+    "lang.prop",
+    
+    "Dutch","Welkom op Installer",0, 
+    "English","Welcome to Installer",1,
+    "French","Bienvenue dans le programme d'installation",0,
+    "German","Willkommen bei Installer",0,
+    "Greek","Καλωσήρθατε στο πρόγραμμα εγκατάστασης",0,
+    "Hungarian","Üdvözli a telepítő",0,
+    "Italian","Benvenuto nell'Installer",0,
+    "Lithuanian","Sveiki atvykę į diegimo langą",0,
+    "Polish","Witamy w instalatorze",0,
+    "Portuguese","Bem-vindo ao Instalador",0,
+    "Portuguese (Brazil)","Bem-vindo ao Instalador",0,
+    "Romanian","Bun venit la modulul de instalare",0,
+    "Russian","Добро пожаловать в установщик",0,
+    "Slovak","Vitajte v inštalácii",0,
+    "Spanish","Bienvenido al Instalador",0,    
+    "Swedish","Välkommen till installeraren",0,
+    "Turkish","Yukleyiciye hosgeldiniz",0
+);
+
+##
+# SET LANGUAGE & FONT FAMILY
+#
+if prop("lang.prop","selected.0")=="1" then
+  loadlang("langs/nl.lang");
+endif;
+
+if prop("lang.prop","selected.0")=="2" then
+  loadlang("langs/en.lang");
+endif;
+
+if prop("lang.prop","selected.0")=="3" then
+  loadlang("langs/fr.lang");
+endif;
+
+if prop("lang.prop","selected.0")=="4" then
+  loadlang("langs/de.lang");
+endif;
+
+if prop("lang.prop","selected.0")=="5" then
+  loadlang("langs/el.lang");
+endif;
+
+if prop("lang.prop","selected.0")=="6" then
+  loadlang("langs/hu.lang");
+endif;
+
+if prop("lang.prop","selected.0")=="7" then
+  loadlang("langs/it.lang");
+endif;
+
+if prop("lang.prop","selected.0")=="8" then
+  loadlang("langs/lt.lang");
+endif;
+
+if prop("lang.prop","selected.0")=="9" then
+  loadlang("langs/pl.lang");
+endif;
+
+if prop("lang.prop","selected.0")=="10" then
+  loadlang("langs/pt.lang");
+endif;
+
+if prop("lang.prop","selected.0")=="11" then
+  loadlang("langs/pt-br.lang");
+endif;
+
+if prop("lang.prop","selected.0")=="12" then
+  loadlang("langs/ro.lang");
+endif;
+
+if prop("lang.prop","selected.0")=="13" then
+  loadlang("langs/ru.lang");
+endif;
+
+if prop("lang.prop","selected.0")=="14" then
+  loadlang("langs/sk.lang");
+endif;
+
+if prop("lang.prop","selected.0")=="15" then
+  loadlang("langs/es.lang");
+endif;
+
+if prop("lang.prop","selected.0")=="16" then
+  loadlang("langs/sv.lang");
+endif;
+
+if prop("lang.prop","selected.0")=="17" then
+  loadlang("langs/tr.lang");
+endif;

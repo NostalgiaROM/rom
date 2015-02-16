@@ -1,0 +1,61 @@
+﻿#
+#--- COMMON SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_next=Suivant
+text_back=Précédent
+text_yes=Oui
+text_no=Non
+text_about=A propos
+text_calibrating=Outils de calibration
+text_quit=Quitter l'installation
+text_quit_msg=Voulez-vous vraiment arrêter l'installation?
+
+#
+#-- CUSTOM STRING RESOURCE
+#
+common.for=for
+
+#-- End of string without any backslash for multiline text
+
+welcome.title=Bienvenue
+welcome.text1=Vous êtes sur le point de commencer l'installation
+welcome.text2=MaximusHD ou MHD is une des plus célèbres ROMs XDA-Developers
+welcome.version=Version
+welcome.updated=Mis à jour
+welcome.next=Appuyez sur suivant pour continuer l'installation
+
+terms.title=Termes and Conditions
+terms.desc=Lisez s'il vous plait les termes er conditions MaximusHD disponible ci-dessous.
+terms.check=Je suis d'accord avec les termes et conditions...
+terms.confirm=En êtes-vous certain?
+
+changelog.title=Changelog
+changelog.desc=MaximusHD changelog:
+
+flash.title=Options pré-flash
+flash.desc=Veuillez faire votre choix:
+
+model.title=Quel modèle possédez-vous?
+model.desc=Veuillez sélectionner votre modèle:
+
+mods.title=Mods aditionnels
+mods.desc=Veuillez sélectionner les mods que vous souhaitez installer:
+
+launcher.title=Options du launcher
+launcher.desc=Veuillez sélectionner le launcher souhaité:
+
+remove.title=Suppression d'applications
+remove.desc=Veuillez sélectionner les applications à supprimer:
+
+keyboards.title=Installation du clavier
+keyboards.desc=Veuillez sélectionner le clavier à installer:
+
+install.title=Prêt à commencer l'installation
+install.multiline=Toutes les informations necessaires ont été saisies pour débuter l'installation\
+Veuillez sélectionner suivant pour démarrer l'installation...
+
+installing.title=En cours d'installation
+installing.desc=En cours d'installation
+
+installcompleted.title=Installation terminée

@@ -1,0 +1,55 @@
+#!/system/bin/sh
+
+#BB="busybox"
+#
+#		if $BB [ -e /sys/class/leds/green/brightness ]; then
+#			$BB echo 1 > /sys/class/leds/green/brightness
+#
+#		elif $BB [ -e /sys/class/leds/button-backlight/brightness ]; then
+#			$BB echo 255 > /sys/class/leds/button-backlight/brightness
+#		fi
+#
+#sleep 1
+#
+#		if $BB [ -e /sys/class/leds/green/brightness ]; then
+#			$BB echo 0 > /sys/class/leds/green/brightness
+#
+#		elif $BB [ -e /sys/class/leds/button-backlight/brightness ]; then
+#			$BB echo 0 > /sys/class/leds/button-backlight/brightness
+#		fi
+#
+#echo "done"
+
+# Notes
+#   BB="busybox" and $BB is unnecesary, possibly causing the script to fail and not reliably start and run every time. 
+#   
+#   It looks like your ultimate goal is to turn off the LED notification light and the bottom lights. Correct?
+#   If so, this is how I would write it...
+
+topled=/sys/class/leds/green/brightness
+bottomled=/sys/class/leds/button-backlight/brightness
+
+log -p i -t initD "Starting 90ledset!"
+
+echo 0 > $topled
+echo 0 > $bottomled
+log -p i -t initD "Turned off LEDs!"
+echo 1 > $topled
+echo 1 > $bottomled
+log -p i -t initD "Turned on LEDs!"
+echo 0 > $topled
+echo 0 > $bottomled
+log -p i -t initD "Turned off LEDs!"
+usleep 500000
+echo 1 > $topled
+echo 1 > $bottomled
+log -p i -t initD "Turned on LEDs!"
+
+log -p i -t initD "90ledset finished!"
+
+# We don't need to turn off anything if it is already off, so we check before we do anything but log either way as to LED status.
+# We also don't need to do an "if [ -e ... ] because we know this path already exists :)
+# I did not test this script, but it should work. If you run it and get an error about "unexpected operand", you may need to change the = signs to -eq
+# The best way to test these scripts are to call them directly, example: /system/etc/init.d/90letset. Terminal or adb will tell you if there is an error.
+# You can also use ADB or aLogcat to see the information that the script is logging to logcat (ADB - adb logcat -s "initD" | aLogcat - Set filter for initD)
+# Hope this helps! If you need further scripting help, feel free to let me know, I love doing it! :D

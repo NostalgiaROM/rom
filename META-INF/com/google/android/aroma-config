@@ -1,0 +1,270 @@
+##
+#
+# AROMA Installer - MaximusHD
+#       (c) 2011-2012 by Ahmad Amarullah
+#           amarullz - xda-developers
+#           http://www.amarullz.com/
+#
+#       Binary Version  : 2.70B
+#       Binary Codename : Flamboyan
+#
+##
+
+ini_set("force_colorspace","rgba");
+
+ini_set("rom_name",             "MaximusHD");
+ini_set("rom_version",          "10.0.0");
+ini_set("rom_author",           "LlabTooFeR");
+ini_set("rom_device",           "HTC One S");
+ini_set("rom_date",             "September 15, 2013");
+
+splash(4000, "one");
+
+fontresload( "0", "ttf/Roboto-Regular.ttf", "12" );
+fontresload( "1", "ttf/Roboto-Regular.ttf", "18" );
+
+ini_set("transition","stack");
+
+include("language_select.edify");
+
+# SHOW ROM INFORMATION
+
+viewbox(
+    "<~welcome.title>",
+    "<~welcome.text1> <b>"+
+	  ini_get("rom_name")+
+	"</b> <~common.for> <b>"+ini_get("rom_device")+"</b>.\n\n"+
+    "<~welcome.text2>\n\n"+
+      "  <~welcome.version>\t: <b><#selectbg_g>"+ini_get("rom_version")+"</#></b>\n"+
+      "  <~welcome.updated>\t\t: <b><#selectbg_g>"+ini_get("rom_date")+"</#></b>\n\n\n"+
+    "<~welcome.next>",
+    "@welcome"
+);
+
+# LICENSE
+agreebox(
+    "<~terms.title>",
+    "<~terms.desc>",
+    "@agreement",
+    resread("agreement.txt"),
+    "<~terms.check>",
+    "<~terms.confirm>"
+);
+
+# CHANGELOG
+
+textbox(
+    "<~changelog.title>",
+    "<~changelog.desc>",
+    "@agreement",
+    resread("changelog.txt")
+);
+
+selectbox(
+  "<~flash.title>",
+  "<~flash.desc>",
+  "@personalize",
+  "wipe.prop",
+  
+  "Install without wiping","",0,
+  "Perform a full wipe","",1,
+  "Update only","",0
+);
+
+if prop("wipe.prop","selected.0") !="3" then
+
+selectbox(
+  "<~model.title>",
+  "<~model.desc>",
+  "@device",
+  "model.prop",  
+  "International HTC One S","",1
+
+);
+
+checkbox(
+  "<~mods.title>",
+  "<~mods.desc>",
+  "@personalize",
+  "mods.prop",
+  
+  "Remove HTC Sense","Removes HTC Sense From The ROM",0,
+  "OpenVPN Support","Enables VPN Support",0,
+  "SQLite Support","Enables SQLite support",0
+);
+
+######################################################
+
+if prop("mods.prop","item.0.1")!="1" then
+    writetmpfile("launcher.prop", "selected=0\n");
+else
+menubox(
+  "<~launcher.title>",
+  "<~launcher.desc>",
+  "@apps",
+  "launcher.prop",
+
+  "Apex","","@apex",
+  "Nova","","@nova",
+  "Facebook Home","","@fbhome"
+);
+endif;
+
+######################################################
+
+checkbox(
+  "<~remove.title>",
+  "<~remove.desc>",
+  "@apps",
+  "remove.prop",
+
+  "Adobe Reader",         "",  0,
+  "Adobe Flash Player",   "",  0,
+  "AdAway",   		  "",  0,
+  "DropBox",              "",  0,
+  "Facebook",             "",  0,
+  "FaceLock",             "",  0,
+  "Flickr",               "",  0,
+  "Google Books",         "",  0,
+  "Google Hangouts",      "",  0,
+  "Google Mail",          "",  0,
+  "Google Maps",          "",  0,
+  "Google Magazines",     "",  0,
+  "Google Movies",        "",  0,
+  "Google News",          "",  0,
+  "Google Now",           "",  0,
+  "Google Plus",          "",  0,
+  "Google TTS",           "",  0,
+  "HTC Browser",          "",  0,
+  "HTC Calculator",       "",  0,
+  "HTC Calendar",         "",  0,
+  "HTC Car & HTC Speak",  "",  0,
+  "HTC Flashlight",       "",  0,
+  "HTC FM Radio",         "",  0,
+  "HTC Gallery",          "",  0,
+  "HTC Mail",             "",  0,
+  "HTC Messages",         "",  0,
+  "HTC Music Player",     "",  0,
+  "HTC Notes",            "",  0,
+  "HTC Sound Recorder",   "",  0,
+  "HTC Stocks",           "",  0,
+  "HTC Task",             "",  0,
+  "HTC Task Manager",     "",  0,
+  "HTC TV",               "",  0,
+  "HTC Video Player",     "",  0,
+  "HTC Watch",            "",  0,
+  "HTC Weather",          "",  0,
+  "HTC WorldClock",       "",  0,
+  "Instagram",         	  "",  0,
+  "JetCet Print",         "",  0,
+  "Kid Mode",             "",  0,
+  "LinkedIn Plugin",      "",  0,
+  "MX Player",            "",  0,
+  "Polaris Office",       "",  0,
+  "Picasa Plugin",        "",  0,
+  "SIM Tool Kit",         "",  0,
+  "SoundHound",           "",  0,
+  "ES File Explorer",     "",  0,
+  "TalkBack",             "",  0,
+  "TuneIn Radio",         "",  0,
+  "Twitter",              "",  0,
+  "YouTube",              "",  0
+);
+
+checkbox(
+  "<~keyboards.title>",
+  "<~keyboards.desc>",
+  "@keyb",
+  "keyb.prop",
+
+  "Arabic",               "",  0,
+  "Bulgarian",            "",  0,
+  "Chinese",              "",  0,
+  "Chinese Handwriting",  "",  0,
+  "Croatian",             "",  0,
+  "Czech",                "",  0,
+  "Danish",               "",  0,
+  "Dutch",                "",  0,
+  "Estonian",             "",  0,
+  "Finnish",              "",  0,
+  "French",               "",  0,
+  "German",               "",  0,
+  "Greek",                "",  0,
+  "Hebrew",               "",  0,
+  "Hungarian",            "",  0,
+  "Indonesian",           "",  0,
+  "Italian",              "",  0,
+  "Kazakh",               "",  0,
+  "Latvian",              "",  0,
+  "Lithuanian",           "",  0,
+  "Malay",                "",  0,
+  "Norwegian",            "",  0,
+  "Polish",               "",  0,
+  "Portuguese",           "",  0,
+  "Romanian",             "",  0,
+  "Russian",              "",  0,
+  "Serbian",              "",  0,
+  "Slovak",               "",  0,
+  "Slovenian",            "",  0,
+  "Spanish",              "",  0,
+  "Swedish",              "",  0,
+  "Turkish",              "",  0,
+  "Ukrainian",            "",  0
+);
+
+endif;
+
+#If update only selected, just restore settings from system
+if prop("wipe.prop","selected.0") == "3" then
+    pleasewait("Reading configurations...");
+    setvar("rest_status", resexec("scripts/restore.sh"));
+    if (getvar("rest_status") != "0") then
+	  alert(
+	      "Error",
+	      "Some files from previous configuration are missing\nPlease perform standard installation",
+	      "@alert"
+	  );
+	  back("1");
+    endif;
+endif;
+
+viewbox(
+  "<~install.title>",
+  "<~install.multiline>",
+  "@info"
+);
+
+install(
+  "<~installing.title>",
+  "<~installing.desc> " + ini_get("rom_name") + " " + ini_get("rom_version") + 
+  "...\nPlease wait until it's finished...",
+  "@install"
+);
+
+#Save installation config
+resexec("scripts/save.sh");
+
+#Set Next Text fo Finish
+ini_set("~text_next", "Finish");
+
+viewbox(
+  "<~installcompleted.title>",
+  "<#080>Congratulations...</#>\n\n"+
+  ini_get("rom_name") + " " + ini_get("rom_version") + " has been installed successfully.\n\n"+
+  "Tap Finish, and Reboot your phone.\n\nThanks.",
+  "@info"
+);
+
+if
+  confirm(
+      "Reboot",
+      "Reboot Now?",
+      "@info",
+      "Yes",
+      "No"
+  )=="yes"
+then
+  reboot("onfinish");
+endif;
+
+exec("/sbin/cp","/tmp/aroma/.install.log","/sdcard/aroma.log");

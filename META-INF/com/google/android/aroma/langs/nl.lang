@@ -1,0 +1,66 @@
+﻿#
+#--- COMMON SYSTEM STRING RESOURCE
+#
+text_ok=Oke
+text_next=Volgende
+text_back=Terug
+text_yes=Ja
+text_no=Nee
+text_about=Over
+text_calibrating=Kalibratie tools
+text_quit=Beeindig installatie
+text_quit_msg=Weet je zeker dat je de installatie wilt beeindigen?
+
+#
+#-- CUSTOM STRING RESOURCE
+#
+common.for=voor
+
+#-- End of string without any backslash for multiline text
+
+welcome.title=Welkom
+welcome.text1=Je gaat nu installeren
+welcome.text2=MaximusHD of MHD is een van de populairste Roms voor de Htc One op XDA-Developers
+welcome.version=Versie
+welcome.updated=Updated
+welcome.next=Klik volgende om verder te gaan met de installatie...
+
+terms.title=Voorwaarden
+terms.desc=Lees alsjeblieft aandachtig de MaximusHD voorwaarden hieronder.
+terms.check=Ik ga akkoord met de voorwaarden...
+terms.confirm=Lees alsjeblieft de voorwaarden...
+
+changelog.title=Changelog
+changelog.desc=MaximusHD Changelog:
+
+flash.title=Pre-Flash opties
+flash.desc=Selecteer alsjeblieft:
+
+model.title=Welk model One heb je?
+model.desc=Selecteer jouw model One:
+
+mods.title=Extra aanpassingen
+mods.desc=Selecteer de gewenste aanpassingen:
+
+launcher.title=Launcher opties
+launcher.desc=Selecteer de gewenste launcher hieronder:
+
+remove.title=Verwijder Apps
+remove.desc=Selecteer de apps die je wenst te verwijderen:
+
+keyboards.title=Installeer Keyboards
+keyboards.desc=Selecteer de keyboards die je wilt installeren:
+
+install.title=Klaar om te installeren
+
+
+
+
+install.multiline=Alle informatie is verzameld. Klik op next om te installeren..
+
+installing.title=Bezig met installatie
+
+installing.desc= Bezig met installatie
+
+installcompleted.title=Installatie voltooid…
+

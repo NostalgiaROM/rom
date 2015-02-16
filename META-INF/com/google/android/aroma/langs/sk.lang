@@ -1,0 +1,61 @@
+#
+#--- COMMON SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_next=?alej
+text_back=Naspä?
+text_yes=Áno	
+text_no=Nie
+text_about=O programe
+text_calibrating=Kalibra?né nástroje
+text_quit=Ukon?i? inštaláciu
+text_quit_msg=Naozaj chctete ukon?i? inštaláciu?
+
+#
+#-- CUSTOM STRING RESOURCE
+#
+common.for=for
+
+#-- End of string without any backslash for multiline text
+
+welcome.title=Vítajte
+welcome.text1=Chystáte sa naištalova?
+welcome.text2=MaximusHD alebo MHD je jeden z najznámejších ROMov XDA
+welcome.version=Verzia
+welcome.updated=Aktualizované
+welcome.next=Pokra?ujte stla?ením tla?itka "?alej"
+
+terms.title=Podmienky
+terms.desc=Pre?ítajte si pozorne podmienky MaximusHD nižšie
+terms.check=Súhlasím s podmienkami.
+terms.confirm=Skontrolujte si podmienky...
+
+changelog.title=Zoznam zmien
+changelog.desc=Zoznam zmien Maximus HD:
+
+flash.title=Možnosti pred inštaláciou
+flash.desc=Vyberte si:
+
+model.title=Ktorý model telefonú máte?
+model.desc=Vyberte si model:
+
+mods.title=?alšie Mody
+mods.desc=Vyberte si z nasledujúcich môžností:
+
+launcher.title=Launcher môžnosti:
+launcher.desc=Vyberte si predvolený launcher:
+
+remove.title=Odstráni? applikácie
+remove.desc=Vyberte si applikácie, ktorých chcete odstráni?:
+
+keyboards.title=Naistalova? klávesnice
+keyboards.desc=Vyberte si klávesnice, ktorých chcete nainštalova?:
+
+install.title=Pripravené na inštaláciu
+install.multiline=Všetky informácie sú pozbierané\
+Stla?ením tla?itka "?alej" sa za?ína inštalácia
+
+installing.title=Inštaluje sa
+installing.desc=Inštaluje sa
+
+installcompleted.title=Inštalácia dokon?ená

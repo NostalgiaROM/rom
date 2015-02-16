@@ -1,0 +1,61 @@
+﻿#
+#--- COMMON SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_next=Επόμενο
+text_back=Πίσω
+text_yes=Ναι
+text_no=Όχι
+text_about=Περί
+text_calibrating=Εργαλεία βαθμονόμησης
+text_quit=Τερματισμός Εγκατάστασης
+text_quit_msg=Είστε σίγουρος ότι θέλετε να τερματίσετε την εγκατάσταση?
+
+#
+#-- CUSTOM STRING RESOURCE
+#
+common.for=για το
+
+#-- End of string without any backslash for multiline text
+
+welcome.title=Καλωσήρθατε
+welcome.text1=Πρόκειτε να εγκαταστήσετε την
+welcome.text2=MaximusHD ή MHD είναι μια από τις πιο διαδεδομένες ROM στους XDA-Developers
+welcome.version=Έκδοση
+welcome.updated=Αναβαθμίστηκε
+welcome.next=Πατήστε Επόμενο για να συνεχίσετε την εγκατάσταση...
+
+terms.title=Όροι και Προϋποθέσεις
+terms.desc=Παρακαλώ διαβάστε προσεκτικά τους Όρους και τις Προϋποθέσεις της MaximusHD.
+terms.check=Συμφωνώ με αυτούς τους Όρους και τις Προϋποθέσεις...
+terms.confirm=Παρακαλώ ελέγξτε τη συμφωνία...
+
+changelog.title=Αλλαγές
+changelog.desc=Αλλαγές στη MaximusHD:
+
+flash.title=Επιλογές πριν την εγκατάσταση
+flash.desc=Παρακαλώ επιλέξτε:
+
+model.title=Ποιά έκδοση συσκευής έχετε?
+model.desc=Παρακαλώ επιλέξτε το μοντέλο σας:
+
+mods.title=Επιπλέον επιλογές
+mods.desc=Παρακαλώ επιλέξτε αυτά που θέλετε να εγκαταστήσετε:
+
+launcher.title=Εφαρμογές Αρχικής Οθόνης
+launcher.desc=Παρακαλώ επιλέξτε την επιθυμητή εφαρμογή παρακάτω:
+
+remove.title=Κατάργηση εφαρμογών
+remove.desc=Παρακαλώ επιλέξτε τις εφαρμογές που θέλετε να καταργήσετε:
+
+keyboards.title=Εγκατάσταση Πληκτρολογίων
+keyboards.desc=Παρακαλώ επιλέξτε τα πληκτρολόγια που θέλετε να εγκαταστήσετε:
+
+install.title=Έτοιμοι για την εγκατάσταση
+install.multiline=Όλες οι πληροφορίες έχουν συγκεντρωθεί για την εγκατάσταση\
+Πατήστε επόμενο για να ξεκινήσει η εγκατάσταση..
+
+installing.title=Εγκατάσταση
+installing.desc=Εγκατάσταση
+
+installcompleted.title=Η εγκατάσταση ολοκληρώθηκε

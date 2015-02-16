@@ -1,0 +1,61 @@
+﻿#
+#--- COMMON SYSTEM STRING RESOURCE
+#
+text_ok=Gerai
+text_next=Kitas
+text_back=Atgal
+text_yes=Taip
+text_no=Ne
+text_about=Apie
+text_calibrating=Calibravimo įrankiai
+text_quit=Baigti diegimą
+text_quit_msg=Ar jūs tikri, kad norite baigti?
+
+#
+#-- CUSTOM STRING RESOURCE
+#
+common.for=už
+
+#-- End of string without any backslash for multiline text
+
+welcome.title=Sveiki
+welcome.text1=Jūs esate diegimo lange
+welcome.text2=MaximusHD arba MHD yra vienas populiariausių ROM'ų visame XDA-Developers
+welcome.version=Versija
+welcome.updated=Atnaujinta
+welcome.next=Spauskite kitas jei norite tęsti diegimą...
+
+terms.title=Taisyklės ir Sąlygos
+terms.desc=Prašome atidžiai perskaityti MaximusHD Taisykles ir Sąlygas.
+terms.check=Aš sutinku su Taisyklėmis ir Sąlygomis...
+terms.confirm=Prašome patikrinti sutikimą...
+
+changelog.title=Pakeitimų sąrašas
+changelog.desc=MaximusHD Pakeitimų sąrašas:
+
+flash.title=Diegimo pasirinkimai
+flash.desc=Prašome pasirinkti:
+
+model.title=Kurį įrenginio modelį jūs turite?
+model.desc=Pasirinkite modelį:
+
+mods.title=Papildomos modifikacijos
+mods.desc=Prašome pasirinkti papildomas modifikacijas:
+
+launcher.title=Vartotojo aplinkos pasirinkimai
+launcher.desc=Prašome pasirinkti vartotojo aplinka:
+
+remove.title=Ištrinti aplikacijas
+remove.desc=Prašome pasirinkti kurias aplikacijas ištrinti:
+
+keyboards.title=Diegti klaviatūras
+keyboards.desc=Prašome pasirinkti kurią klaviatūrą įrašyti:
+
+install.title=Pasiruošęs diegti
+install.multiline=Visą reikiama informacija buvo surinkta diegimui\
+Spauskite kitas pradėti diegimą...
+
+installing.title=Diegiama
+installing.desc=Diegiama
+
+installcompleted.title=Diegimas baigtas

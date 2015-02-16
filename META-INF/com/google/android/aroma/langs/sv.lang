@@ -1,0 +1,61 @@
+﻿#
+#--- COMMON SYSTEM STRING RESOURCE
+#
+text_ok=Ok
+text_next=Nästa
+text_back=Tillbaka
+text_yes=Ja
+text_no=Nej
+text_about=Om
+text_calibrating=Kalibreringsverktyg
+text_quit=Avbryt installation
+text_quit_msg=Vill du verkligen avbryta installationen?
+
+#
+#-- CUSTOM STRING RESOURCE
+#
+common.for=för
+
+#-- End of string without any backslash for multiline text
+
+welcome.title=Välkommen!
+welcome.text1=Du håller på att installera
+welcome.text2=MaximusHD eller MHD är en av de mest populära ROMarna på XDA-Developers.
+welcome.version=Version
+welcome.updated=Uppdaterad
+welcome.next=Tryck "nästa" för att gå vidare med installationen...
+
+terms.title=Villkor
+terms.desc=Läs villkoren noggrant för MaximusHD nedan...
+terms.check=Jag accepterar villkoren...
+terms.confirm=Var god kolla villkoren...
+
+changelog.title=Ändringslogg
+changelog.desc=MaximusHD ändringslogg:
+
+flash.title=Pre-Flash-val
+flash.desc=Vänligen välj:
+
+model.title=Vilken modell har du?
+model.desc=Vänligen välj din modell:
+
+mods.title=Ytterligare mods
+mods.desc=Vänligen välj de mods du vill installera:
+
+launcher.title=Hemskärmsalternativ
+launcher.desc=Vänligen välj den hemskärm du vill ha:
+
+remove.title=Ta bort appar
+remove.desc=Vänligen välj vilka appar du vill ta bort:
+
+keyboards.title=Installera tangentbord
+keyboards.desc=Vänligen välj de/det tangentbord du vill installera:
+
+install.title=Redo att installera
+install.multiline=All information har samlats in för installation\
+Tryck "nästa" för att starta installationen..
+
+installing.title=Installerar
+installing.desc=Installerar
+
+installcompleted.title=Installation klar

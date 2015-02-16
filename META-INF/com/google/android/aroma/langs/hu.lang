@@ -1,0 +1,61 @@
+#
+#--- COMMON SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_next=Tovább
+text_back=Vissza
+text_yes=Igen
+text_no=Nem
+text_about=A programról
+text_calibrating=Kalibráló eszközök
+text_quit=Kilépés
+text_quit_msg=Biztosan ki szeretne lépni?
+
+#
+#-- CUSTOM STRING RESOURCE
+#
+common.for=for
+
+#-- End of string without any backslash for multiline text
+
+welcome.title=Üdvözöljük
+welcome.text1=Arra készül, hogy telepítse a Maximus HD-t
+welcome.text2=A MaximusHD vagy MHD egyike a legnépszer?bb ROMüoknak az XDA weboldalon.
+welcome.version=Verzió
+welcome.updated=Frissítve
+welcome.next=Kattintson a Tovább gombra a telepítés megkezdéséhez...
+
+terms.title=Felhasználói feltételek és szabályok
+terms.desc=Kérem olvassa el alaposan a feltételeket és szabályokat.
+terms.check=Elfogadom a feltételeket és szabályokat.
+terms.confirm=Kérem olvassa el a megállapodást.
+
+changelog.title=Változások (Changelog)
+changelog.desc=MaximusHD Changelog:
+
+flash.title=Telepítés el?tti lehet?ségek
+flash.desc=Válassza ki:
+
+model.title=Milyen típusú a telefonja?
+model.desc=Válassza ki a modelljét:
+
+mods.title=További Modifikációk
+mods.desc=Válassza ki az alábbi lehet?ségek közül, melyiket telepítse a program:
+
+launcher.title=Launcher opciók
+launcher.desc=Válassza ki az alapértelmezett "Launcher"-t:
+
+remove.title=Aplikációk eltávolítása
+remove.desc=Válassza ki, mely aplikációkat szeretné eltávolítani:
+
+keyboards.title=Billenty?zet telepítése
+keyboards.desc=Válassza ki, mely billenty?zeteket szeretné telepíteni:
+
+install.title=Készen áll a telepítésre
+install.multiline=Az összes szükséges információt megadta a telepítéshez\
+Nyomja meg a "Tovább" gombot a telepítés megkezdéséhez..
+
+installing.title=Telepítés folyamatban
+installing.desc=Telepítés folyamatban
+
+installcompleted.title=Telepítés befejezve

@@ -1,0 +1,61 @@
+﻿#
+#--- COMMON SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_next=Urmatorul pas
+text_back=Inapoi
+text_yes=Da
+text_no=Nu
+text_about=Despre
+text_calibrating=Unelte de calibrare
+text_quit=Anulare instalare
+text_quit_msg=Sunteti sigur ca doriti sa iesiti din modulul de instalere?
+
+#
+#-- CUSTOM STRING RESOURCE
+#
+common.for=for
+
+#-- End of string without any backslash for multiline text
+
+welcome.title=Bun venit
+welcome.text1=Sunteti pe cale sa instalati
+welcome.text2=MaximusHD sau MHD este unul dintre cele mai poplulare ROM-uri de pe XDA-Developers
+welcome.version=Versiune
+welcome.updated=Updatata
+welcome.next=Apasa urmatorul pas pentru a continua instalarea...
+
+terms.title=Termeni si conditii
+terms.desc=Va rog sa cititi atent termenii si conditiile MaximusHD de mai jos.
+terms.check=Sunt de acord cu termenii si conditiile...
+terms.confirm=Please Verifica acordul...
+
+changelog.title=Lista de modificari
+changelog.desc=Lista de modificari MaximusHD:
+
+flash.title=Optiuni inainte de instalare
+flash.desc=Va rog selectati:
+
+model.title=Ce model de HTC One aveti?
+model.desc=Va rog selectati modelul:
+
+mods.title=MOD-uri optionale
+mods.desc=Va rog selectati MOD-uriele pe care doriti sa le instalati:
+
+launcher.title=Optiuni launcher
+launcher.desc=Va rog selectati launcher-ul preferat mai jos:
+
+remove.title=Eliminati aplicatii
+remove.desc=Va rog selectati aplicatile pe care doriti sa le eliminati:
+
+keyboards.title=Instalati tastaturi
+keyboards.desc=Va rog selectati tastaturile pe care doriti sa le instalati:
+
+install.title=Pregatit pentru instalare
+install.multiline=Toate informatiile necesare instalarii au fost colectate\
+Apasati pasul urmator pentru inceperea instalarii..
+
+installing.title=Instalez
+installing.desc=Instalez
+
+installcompleted.title=Instalare completa

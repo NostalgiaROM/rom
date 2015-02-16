@@ -1,0 +1,61 @@
+﻿#
+#--- COMMON SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_next=Próximo
+text_back=Voltar
+text_yes=Sim
+text_no=Não
+text_about=Sobre
+text_calibrating=Ferramentas de Calibração
+text_quit=Sair da Instalação
+text_quit_msg=Tem Certeza que Deseja Sair do Instalador?
+
+#
+#-- CUSTOM STRING RESOURCE
+#
+common.for=para
+
+#-- End of string without any backslash for multiline text
+
+welcome.title=Bem Vindo
+welcome.text1=Você está Prestes a Instalar
+welcome.text2=MaximusHD ou MHD é um dos Mais Populares ROMs do XDA-Developers
+welcome.version=Versão
+welcome.updated=Atualizado
+welcome.next=Pressione Próximo para Continuar a Instalação...
+
+terms.title=Termos e Condições
+terms.desc=Por Favor Leia Cuidadosamente os Termos e Condições de MaximusHD Abaixo:
+terms.check=Eu Concordo com os Termos e Condições...
+terms.confirm=Por Favor Marque o Acordo...
+
+changelog.title=O que Mudou
+changelog.desc=Mudanças em MaximusHD:
+
+flash.title=Opções Pre-Flash
+flash.desc=Por Favor Escolha:
+
+model.title=Qual Modelo de Dispositivo Você Tem?
+model.desc=Por Favor Selecione seu Dispositivo:
+
+mods.title=Modificações Adicionais
+mods.desc=Por Favor Selecione os MODs que Voce Quer Instalar:
+
+launcher.title=Opções do Launcher
+launcher.desc=Por Favor Selecione suas Preferências do Launcher Abaixo:
+
+remove.title=Remover Apps
+remove.desc=Por Favor Selecione os Aplicativos que Quer Remover:
+
+keyboards.title=Instalar Teclados
+keyboards.desc=Por Favor Selecione os Teclados que Quer Adicionar
+
+install.title=Pronto para Instalar
+install.multiline=Todas as Informações Necessárias para a Instalação Foram Coletadas\
+Pressione Próximo para Instalar
+
+installing.title=Instalando
+installing.desc=Instalando
+
+installcompleted.title=Instalação Concluída
